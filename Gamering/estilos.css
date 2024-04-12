@@ -1,0 +1,279 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital@1&family=Big+Shoulders+Inline+Display:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital@1&family=Big+Shoulders+Inline+Display:wght@800&family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,400&display=swap');
+*{
+    margin: 5;
+    
+}
+/* header*/
+header{
+    background: rgb(58,180,115);
+    background: linear-gradient(90deg, rgba(58,180,115,1) 24%, rgba(252,253,29,1) 47%, rgba(252,69,85,1) 97%);
+}
+body, html {
+    margin: 10;
+    padding: 10;
+
+}
+/*Botones*/
+a{
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+}
+/* body{
+    background-color: black;
+} */
+h1{
+    text-align: center;
+    color:aliceblue;
+}
+.Logo{
+    width: 10%;
+    height: 10%;
+    margin-right: 2em;
+}
+.Logo2{
+    width: 15%;
+    height: 15%;
+}
+.card{
+    background-color: #cac5c1;
+    width: 288px;
+    height: 352.8px;
+}
+
+/* Nombres de los Fuentes de texto */
+.Ttitulo{
+    font-family: 'Big Shoulders Inline Display', sans-serif;
+    width: 100px;
+    font-size: 75px;
+}
+.Tsubtitulos{
+    font-family: 'Amaranth', sans-serif;
+}
+.Tcontenido{
+    font-family: 'Amaranth', sans-serif;
+}
+.Tpremium{
+    font-family: 'Amaranth', sans-serif;
+
+}
+.TCategoria{
+    font-family: 'Big Shoulders Inline Display', sans-serif;
+    font-size: 150px;
+    user-select: none;
+}
+/* Fin de los nombres de los Fuentes de texto */
+.CajaPadre1{
+    border-color: #cac5c1;
+}
+/*iconos*/
+.IconoIdeal{
+    width: 100px;
+    height: 100px;
+}
+.IconoProducto{
+    width: auto;
+    height: 250px;
+}
+.MiniIcono{
+    width: 30px;
+    height: 30px;
+}
+.Pie{
+    background: rgb(58,180,115);
+    background: linear-gradient(90deg, rgba(58,180,115,1) 24%, rgba(252,253,29,1) 47%, rgba(252,69,85,1) 97%);
+    color: aliceblue;
+}
+/*cartas*/
+.indie-casual-card .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade sombreado a la tarjeta */
+  }
+  
+  .indie-casual-card .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Cambia el sombreado al pasar el ratón sobre la tarjeta */
+  }
+
+.card-body{
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1); /* Añade sombreado a la tarjeta */
+
+}
+
+.descripcion:hover {
+    transform: translateY(0);
+}
+
+
+.Container{
+    margin: 0 auto;
+    text-align: center;
+    
+}
+/*redes*/
+.redes{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 4px;
+    border-top: 1px solid #000;
+}
+ .redes .ul.list-unstyled{
+    list-style: none;
+    display: flex;
+ }
+
+.redes .ul.list-unstyled li{
+margin-right: 10px;
+}
+
+.top-row{
+    margin-top: 45px;
+}
+/*Registros*/
+.registro{
+    background-color:#cac5c1;
+    padding: 20px;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 1em;
+    margin-top: 50%;
+}
+.registro2{
+    background-color:#cac5c1;
+    padding: 20px;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 1em;
+    margin-top: 30%;
+}
+.registro3{
+    background-color:#cac5c1;
+    padding: 20px;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 1em;
+}
+
+
+@media(min-with: 726){
+    .card{
+    
+        margin-bottom: 20px;
+    }
+}
+@media(min-with) {
+    .card{
+        margin-bottom: 20px;
+    }
+}
+.card img {
+    width: 286px; 
+    height: 180px; 
+    object-fit: cover; 
+}
+
+/* Estilos para la sección parallax */
+.parallax-section {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(73, 66, 62) 24%, rgb(20, 15, 15) 47%, rgb(29, 27, 27) 97%);
+    background-attachment: fixed; /* Fija la imagen de fondo */
+    background-position: center; /* Ajusta la posición del fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-size: cover; /* Cubre todo el contenedor */
+}
+@keyframes prueba{
+
+    from{
+        background-image:url('Imagenes/FondoNeon.jpg') ;
+    }
+    to {
+        background-image: url('Imagenes/FondoNeon2.jpg');
+    }
+    
+}
+
+.parallax-section2 {
+    background: rgb(38,180,162);
+    background: linear-gradient(0deg, rgba(38,180,162,1) 10%, rgba(106,187,73,1) 50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.parallax-section3 {
+    background: rgb(97,137,199);
+    background: linear-gradient(0deg, rgba(97,137,199,0.8575805322128851) 0%, rgba(114, 158, 223, 0.874) 41%, rgba(7, 85, 201, 0.622) 83%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-section4 {
+    background: rgb(177, 129, 46);
+    background: linear-gradient(0deg, rgba(147,101,20,0.9808298319327731) 0%, rgba(186,138,23,0.8855917366946778) 100%, rgba(226,154,28,0.9808298319327731) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-content {
+    color: white; /* Cambia el color del texto si es necesario */
+    text-align: center; /* Ajusta la alineación del texto según sea necesario */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.parallax-login{
+    background-image: url(Imagenes/FondoNeon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+
+.ventajas{
+    color: rgb(223, 231, 238);
+    font-size: 30px; /* Ajusta el tamaño de la fuente según tus preferencias */
+    line-height: 1.5; /* Ajusta el espaciado entre líneas */
+    /* Otros estilos adicionales según tus necesidades */}
+    .oferta {
+        /* Agrega estilos específicos aquí */
+        width: 15px; /* Ancho deseado */
+        height: 15px; /* Altura deseada */
+    }
+
+    .special-card{
+        margin-bottom: 5em;
+    }
+    .Puzzle-card{
+        margin-bottom: 5em;
+    }
+    .span{
+        color: antiquewhite;
+    }
+    .col{
+        margin-bottom: 5em;
+    }
+    .enlaces{
+        text-align: center;
+        position: relative;
+        bottom: -1em;
+  
+    }
+.enlaces1{
+    text-align: center;
+    position: relative;
+  
+}
+.btn.btn-info{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+.redes_sociales{
+    justify-content: center;
+
+}

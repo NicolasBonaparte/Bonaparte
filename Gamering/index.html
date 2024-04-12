@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta name="language" content="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="estilos.css">
+  <title>Gamering</title>
+</head>
+<!-- HEADER -->
+<header class="p-3 border-bottom">
+  <div class="container">
+    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+      <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
+        <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+      </a>
+      <img class="Logo" src="imagenes/Logo.png" alt="">
+
+
+      <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+        <h1 class="Ttitulo">Gamering</h1>
+      </ul>
+
+      <div class="dropdown text-end">
+        <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          <img src="Imagenes/Usuario.png" alt="mdo" width="32" height="32" class="rounded-circle">
+        </a>
+        <ul class="dropdown-menu text-small show"
+          style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate(0px, 34px);"
+          data-popper-placement="bottom-start">
+          <li><a class="dropdown-item" href="login.html">Registrar</a></li>
+          <li><a class="dropdown-item" href="iniciar_session.html">Iniciar Sesión</a></li>
+        </ul>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- FIN HEADER -->
+
+<body>
+  <!-- INICIO BODY -->
+
+  <div class="pantallaDestacada">
+    <div class="parallax-section">
+      <h1 class="TCategoria">JUEGOS DESTACADOS</h1>
+        <div class="container" style="height: auto; padding-bottom:45px">
+
+          <div class="row row-col-1 row-col-sm-2 row-col-md-4 top-row">
+            <div class="col" style="height: auto;">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top custom-image" src="https://placehold.co/290x180" alt="Imagen del juego">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <h4 class="card-price">Price</h4>
+                  <div class="enlaces1">
+                  <img src="Imagenes/Games.png" class="verPaginaButton" alt="" style="
+                  width: 30px;
+                  height: 30px" href="">
+                  <a href="https://us.gamesplanet.com/game/avatar-frontiers-of-pandora-ubisoft-connect--6693-1?ref=cheapshark" class="btn btn-info"  data-game-id="primerJuego">ver página</a>
+                  <div class="descripcion">
+                    <p class="card-text"></p>
+                      
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col" style="height: auto;">
+              <div class="card" style="width: 18rem;" data-game-id="juego2">
+                <img class="card-img-top custom-image" src="https://placehold.co/290x180" alt="Imagen del juego">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <h4 class="card-price">Price</h4>
+                  <div class="descripcion">
+                  <p class="card-text"></p>
+                  </div>
+                  <div class="enlaces">
+                    <img src="Imagenes/Steam.png" class="verPaginaButton" alt="" style="
+                    width: 30px;
+                    height: 30px">
+                    <a href="https://store.steampowered.com/app/1372880/The_Day_Before/" class="btn btn-info" data-game-id="juego2">ver página</a>
+                 </div>
+                 </div>
+              </div>
+            </div>
+
+            <div class="col" style="height: auto;">
+              <div class="card" style="width: 18rem;">
+                  <img class="card-img-top custom-image" src="https://placehold.co/290x180" alt="Imagen del juego">
+                  <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h4 class="card-price">Price</h4>
+                      <div class="descripcion">
+                        <p class="card-text"></p>
+                        </div>
+                        <div class="enlaces">
+                      <img src="Imagenes/Fanatical.svg" class="verPaginaButton" alt="" style="
+                      width: 30px;
+                      height: 30px">
+                      <a href="https://www.fanatical.com/en/game/the-final-station?aff_track=CJ&CJEVENT=bd8728c59cfa11ee80d1bd010a18b8f8&utm_source=CJ&cj_pid=5715555&cj_aid=13797872" class="btn btn-info " data-store="steam" data-game-id="juego3">
+                        ver página</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+          
+
+            <div class="col" style="height: auto;">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top custom-image" src="https://placehold.co/290x180" alt="Imagen del juego">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <h4 class="card-price">Price</h4>
+                  <div class="descripcion">
+                    <p class="card-text"></p>
+                    </div>
+                    <div class="enlaces">
+                    <img src="Imagenes/Steam.png" class="verPaginaButton" alt="" style="
+                    width: 30px;
+                    height: 30px" class="cheapSharkApiUrl">
+                    <a href="https://store.steampowered.com/app/1587130/Blood_West/" class="btn btn-info" data-store="steam" data-game-id="juego4">ver página</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row row-col-1 row-col-sm-2 row-col-md-4 top-row">
+            <div class="col" style="height: auto;">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top custom-image" src="https://placehold.co/290x180" alt="Imagen del juego">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <h4 class="card-price">Price</h4>
+                  <div class="descripcion">
+                    <p class="card-text"></p>
+                    </div>
+                    <div class="enlaces1">
+                    <img src="Imagenes/Steam.png" class="verPaginaButton" alt="" style="
+                    width: 30px;
+                    height: 30px">
+                    <a href="https://store.steampowered.com/app/2186680/Warhammer_40000_Rogue_Trader/" class="btn btn-info" data-store="steam" data-game-id="juego5">ver página</a>
+                </div>
+              </div>
+              </div>
+            </div>
+
+            <div class="col" style="height: auto;">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top custom-image" src="https://placehold.co/290x180" alt="Imagen del juego">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <h4 class="card-price">Price</h4>
+                  <div class="descripcion">
+                    <p class="card-text"></p>
+                    </div>
+                    <div class="enlaces">
+                    <img src="Imagenes/nintendo.png" class="verPaginaButton" alt="" style="
+                    width: 30px;
+                    height: 30px">
+                    <a href="https://www.nintendo.es/Juegos/Juegos-de-Nintendo-Switch/Super-Mario-RPG-2403952.html" class="btn btn-info" data-store="steam" data-game-id="juego6">ver página</a>
+                </div>
+              </div>
+              </div>
+            </div>
+
+            <div class="col" style="height: auto;">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top custom-image" src="https://placehold.co/290x180" alt="Imagen del juego">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <h4 class="card-price">Price</h4>
+                  <div class="descripcion">
+                    <p class="card-text"></p>
+                    </div>
+                    <div class="enlaces">
+                    <img src="Imagenes/Steam.png" class="verPaginaButton" alt="" style="
+                    width: 30px;
+                    height: 30px">
+                    <a href="https://store.steampowered.com/app/2593450/Furi_Demake__The_Chain/" class="btn btn-info" data-store="steam" data-game-id="juego7">ver página</a>
+                </div>
+              </div>
+              </div>
+            </div>
+
+            <div class="col" style="height: auto;">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top custom-image" src="https://placehold.co/290x180" alt="Imagen del juego">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <h4 class="card-price">Price</h4>
+                  <div class="descripcion">
+                    <p class="card-text"></p>
+                    </div>
+                    <div class="enlaces">
+                    <img src="Imagenes/Games.png" class="verPaginaButton" alt="" style="
+                    width: 30px;
+                    height: 30px">
+                    <a href="https://us.gamesplanet.com/game/steamworld-build-steam-key--6702-1?ref=cheapshark" class="btn btn-info" data-store="steam" data-game-id="juego8">ver página</a>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Jumbotron -->
+  <div style="overflow: hidden; width: 100%;">
+    <div id="image-container" style="display: flex; transition: transform 1s ease;">
+        <img src="Imagenes/publicidad.png" alt="" width="100%" style="flex-shrink: 0;">
+        <img src="Imagenes/publicidad.png" alt="" width="100%" style="flex-shrink: 0;">
+    </div>
+  </div>
+<!-- Jumbotron -->
+
+
+
+
+
+
+
+
+
+  <!-- INICIO DE TARJETAS DE ACCIÓN Y AVENTURA -->
+  <div class="parallax-section2">
+    <h1 class="TCategoria" style="padding-top: 10px; ">ACCIÓN Y AVENTURA</h1>
+    <div class="container" style="height: auto; padding-bottom:45px">
+      <div class="row row-col-1 row-col-sm-2 row-col-md-4 top-row">
+        <div class="col" style="height: auto;">
+          <div class="special-card">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top custom-image" src="https://placehold.co/290x180" alt="Imagen del juego">
+              <div class="card-body">
+                <div class="datos">
+                <h5 class="card-title">Card title</h5>
+                <h4 class="card-price">Price</h4>
+                <div class="descripcion">
+                  <p class="card-text"></p>
+                  </div>
+                </div>
+                  <div class="enlaces">
+                  <img src="Imagenes/Steam.png" class="verPaginaButton" alt="" style="
+                  width: 30px;
+                  height: 30px">
+                  <a href="https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/" class="btn btn-info " data-game-id="juegoAccion1">ver página</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col" style="height: auto;">
+          <div class="special-card">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top custom-image" src="https://placehold.co/290x180" alt="Imagen del juego">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h4 class="card-price">Price</h4>
+                <div class="descripcion">
+                  <p class="card-text"></p>
+                  </div>
+                  <div class="enlaces">
+                  <img src="Imagenes/gog.png" class="verPaginaButton" alt="" style="
+                  width: 30px;
+                  height: 30px">
+                <a href="https://www.gog.com/en/game/the_witcher_3_wild_hunt?cjdata=MXxZfDB8WXww&utm_campaign=cj&utm_medium=affiliate&utm_source=cj&r=true" class="btn btn-info" id="verPaginaButton">ver página</a>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" style="height: auto;">
+          <div class="special-card">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top custom-image" src="https://placehold.co/290x180" alt="Imagen del juego">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h4 class="card-price">Price</h4>
+                <div class="descripcion">
+                  <p class="card-text"></p>
+                  </div>
+                  <div class="enlaces1">
+                  <img src="Imagenes/Steam.png" class="verPaginaButton" alt="" style="
+                  width: 30px;
+                  height: 30px">
+                <a href="https://store.steampowered.com/app/730/CounterStrike_2/" class="btn btn-info" id="verPaginaButton">ver página</a>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" style="height: auto;">
+          <div class="special-card">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top custom-image" src="https://placehold.co/290x180" alt="Imagen del juego">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h4 class="card-price">Price</h4>
+                <div class="descripcion">
+                  <p class="card-text"></p>
+                  </div>
+                  <div class="enlaces">
+                  <img src="Imagenes/Steam.png" class="verPaginaButton" alt="" style="
+                  width: 30px;
+                  height: 30px">
+                <a href="https://store.steampowered.com/app/203160/Tomb_Raider/" class="btn btn-info" id="verPaginaButton">ver página</a>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- INICIO DE TARJETAS DE PUZZLE Y ESTRATEGIA -->
+  <div class="parallax-section3">
+    <h1 class="TCategoria" style="border-top: 10px solid #cac5c1; padding-top: 10px; width: 100%;"> PUZZLE Y ESTRATEGIA
+    </h1>
+    <div class="container" style="height: auto; padding-bottom:45px">
+      <div class="row row-col-1 row-col-sm-2 row-col-md-4 top-row">
+        <div class="col" style="height: auto;">
+          <div class="Puzzle-card">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top custom-image" src="https://placehold.co/290x180" alt="Imagen del juego">
+              <div class="card-body">
+                <div class="datos">
+                <h5 class="card-title">Card title</h5>
+                <h4 class="card-price">Price</h4>
+                <div class="descripcion">
+                  <p class="card-text"></p>
+                  </div>
+                </div>
+                  <div class="enlaces">
+                  <img src="Imagenes/Steam.png" class="verPaginaButton" alt="" style="
+                  width: 30px;
+                  height: 30px">
+                <a href="https://store.steampowered.com/app/620/Portal_2/" id="Portal2" class="btn btn-info" data-game-name="Portal_2">ver página</a>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col" style="height: auto;">
+          <div class="Puzzle-card">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top custom-image" src="https://placehold.co/290x180" alt="Imagen del juego">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h4 class="card-price">Price</h4>
+                <div class="descripcion">
+                  <p class="card-text"></p>
+                  </div>
+                  <div class="enlaces">
+                  <img src="Imagenes/Steam.png" class="verPaginaButton" alt="" style="
+                  width: 30px;
+                  height: 30px">
+                <a href="https://store.steampowered.com/app/400/Portal/" class="btn btn-info" data-game-id="400" data-game-name="Portal">ver página</a>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" style="height: auto;">
+          <div class="Puzzle-card">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top custom-image" src="https://placehold.co/290x180" alt="Imagen del juego">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h4 class="card-price">Price</h4>
+                <div class="descripcion">
+                  <p class="card-text"></p>
+                  </div>
+                  <div class="enlaces">
+                  <img src="Imagenes/gog.png" class="verPaginaButton" alt="" style="
+                  width: 30px;
+                  height: 30px">
+                <a href="https://www.gog.com/en/game/limbo?cjdata=MXxZfDB8WXww&utm_campaign=cj&utm_medium=affiliate&utm_source=cj" class="btn btn-info">ver página</a>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <br>
+
+        <div class="col" style="height: auto;">
+          <div class="Puzzle-card">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top custom-image" src="https://placehold.co/290x180" alt="Imagen del juego">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h4 class="card-price">Price</h4>
+                <div class="descripcion">
+                  <p class="card-text"></p>
+                  </div>
+                  <div class="enlaces">
+                  <img src="Imagenes/Steam.png" class="verPaginaButton" alt="" style="
+                  width: 30px;
+                  height: 30px">
+                <a href="https://store.steampowered.com/app/420/HalfLife_2_Episode_Two/" class="btn btn-info">ver página</a>
+             </div>
+             </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
+
+
+
+
+
+  <!-- INICIO DE JUEGOS DE INDIE Y CASUAL -->
+  <div class="parallax-section4">
+    <h1 class="TCategoria" style="border-top: 10px solid #cac5c1; padding-top: 10px;">INDIE Y CASUAL</h1>
+
+
+    <div class="container" style="height: auto; padding-bottom:45px">
+      <div class="row top-row">
+        <div class="col" style="height: auto;">
+          <div class="indie-casual-card">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top custom-image" src="https://placehold.co/290x180" alt="Imagen del juego">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h4 class="card-price">Price</h4>
+                <div class="descripcion">
+                  <p class="card-text"></p>
+                  </div>
+                  <div class="enlaces">
+                  <img src="Imagenes/gog.png" class="verPaginaButton" alt="" style="
+                  width: 30px;
+                  height: 30px">
+                <a href="https://www.gog.com/en/game/terraria?cjdata=MXxZfDB8WXww&utm_campaign=cj&utm_medium=affiliate&utm_source=cj" class="btn btn-info">ver página</a>
+            </div> 
+           </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col" style="height: auto;">
+          <div class="indie-casual-card">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top custom-image" src="https://placehold.co/290x180" alt="Imagen del juego">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h4 class="card-price">Price</h4>
+                <div class="descripcion">
+                  <p class="card-text"></p>
+                  </div>
+                  <div class="enlaces">
+                  <img src="Imagenes/Epic.png" class="verPaginaButton" alt="" style="
+                  width: 30px;
+                  height: 30px">
+                <a href="https://www.rocketleague.com/es-es/" class="btn btn-info">ver página</a>
+             </div>
+             </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" style="height: auto;">
+          <div class="indie-casual-card">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top custom-image" src="https://placehold.co/290x180" alt="Imagen del juego">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h4 class="card-price">Price</h4>
+                <div class="descripcion">
+                  <p class="card-text"></p>
+                  </div>
+                  <div class="enlaces">
+                  <img src="Imagenes/Steam.png" class="verPaginaButton" alt="" style="
+                  width: 30px;
+                  height: 30px">
+                <a href="https://store.steampowered.com/app/367520/Hollow_Knight/" class="btn btn-info">ver página</a>
+             </div> 
+            </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" style="height: auto;">
+          <div class="indie-casual-card">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top custom-image" src="https://placehold.co/290x180" alt="Imagen del juego">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h4 class="card-price">Price</h4>
+                <div class="descripcion">
+                  <p class="card-text"></p>
+                  </div>
+                  <div class="enlaces">
+                  <img src="Imagenes/gog.png" class="verPaginaButton" alt="" style="
+                  width: 30px;
+                  height: 30px">
+                <a href="https://www.gog.com/en/game/hotline_miami?cjdata=MXxZfDB8WXww&utm_campaign=cj&utm_medium=affiliate&utm_source=cj" class="btn btn-info">ver página</a>
+             </div>
+             </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- FIN BODY -->
+
+
+
+
+
+
+
+
+
+
+  <!-- Pie de página -->
+  <footer class="Pie">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <h5> </h5>
+          <div class="Logo2">
+            <img src="Imagenes/Logo.png" alt="" width="150px">
+          </div>
+
+
+        </div>
+
+        <div class="col-6 col-md-2 mb-3">
+          <h5> </h5>
+          <h5> </h5>
+          <h5>Terminos y condiciones</h5>
+          <h5>Politica de Privacidad</h5>
+
+        </div>
+        <div class="col-6 col-md-2 mb-3">
+          <h5> </h5>
+          <h5>Cookies</h5>
+          <h5>Preguntas Frecuentes</h5>
+          <h5>Contacto</h5>
+        </div>
+
+        <div class="col-md-5 offset-md-1 mb-3">
+          <form>
+            <h5>Disfruta de los beneficios de ser Premium</h5>
+            <p>Suscríbete mensualmente para obtener pequeñas ventajas</p>
+            <div class="d-flex flex-column flex-sm-row h-25 w-100  gap-2">
+              <a href="premium.html" class="btn btn-outline-warning">Hazte premium</a>
+
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="redes">
+
+        <div class="d-flex justify-content-between my-4 border-top">
+          <p>© Hectano.</p>
+     
+          <div class="redes_sociales">
+            <ul class="list-unstyled d-flex">
+                <li class="Twitter" style="margin-right: 500px;" width="20" height="24"><img src="Imagenes/Twitter.png" alt="" width="50px" height="50px"></li>
+                <li class="Facebook" style="margin-right: 500px;" width="20" height="24"><img src="Imagenes/Facebook.png" alt="" width="50px" height="50px"></li>
+                <li class="Instagram" width="20" height="24"><img src="Imagenes/Instragram.png" alt="" width="50px" height="50px"></li>
+            </ul>
+        </div>
+          
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script src="Subpaginas.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<!-- <script src="destacados.js"></script> -->
+<!-- <script src="server.js"></script> -->
+
+</html>
